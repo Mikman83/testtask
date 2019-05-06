@@ -1,0 +1,39 @@
+.timer {
+  display: flex;
+  margin: 0 -10px;
+
+  &__hours,
+  &__minutes,
+  &__seconds {
+    text-align: center;
+    margin: 0 10px;
+  }
+
+  &__hours-count,
+  &__minutes-count,
+  &__seconds-count {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: #fff;
+    font-family: Umnik, sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+  }
+
+  &__hours-count:before,
+  &__minutes-count:before,
+  &__seconds-count:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url('../img/count-seporator.png');
+    width: 2px;
+    height: 55px;
+    z-index: 1;
+  }
+}

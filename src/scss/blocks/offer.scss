@@ -1,0 +1,17 @@
+.offer {
+
+  &__title {
+    padding: 0 15px;
+  }
+
+  &__title h2 {
+    font-size: 32px;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}

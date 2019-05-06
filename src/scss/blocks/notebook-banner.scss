@@ -1,0 +1,112 @@
+.notebook-banner {
+  background-image: url('../img/nb-banner-bg.jpg');
+
+  @media (min-width: 768px) {
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10px;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      padding: 15px;
+      margin: 0 -20px;
+    }
+  }
+
+  &__img {
+    padding: 0 10px;
+
+    @media (min-width: 768px) {
+      max-width: 40%;
+      padding: 0 20px;
+    }
+  }
+
+  &__inner {
+    padding: 0 10px;
+
+    @media (min-width: 768px) {
+      max-width: 60%;
+      padding: 0 20px;
+    }
+  }
+
+  &__img {
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  &__img-link {
+    display: block;
+    cursor: pointer;
+  }
+
+  &__img-bonus {
+    position: absolute;
+    pointer-events: none;
+    top: -10px;
+    right: -20px;
+  }
+
+  &__title h3 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.3;
+
+    @media (min-width: 768px) {
+      font-size: 30px;
+    }
+  }
+
+  &__descr {
+    font-size: 15px;
+
+    @media (min-width: 768px) {
+      font-size: 16px;
+    }
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+
+  &__info-price-new {
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1em;
+    color: #ff0072;
+  }
+
+  &__info-price-old {
+    position: relative;
+    width: fit-content;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1em;
+  }
+
+  &__info-price-old svg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__info-link {
+    display: inline-flex;
+    margin-bottom: auto;
+  }
+}

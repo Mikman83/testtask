@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js  page">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тестовое задание</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+  </script>
+  <script src="js/svg4everybody.min.js"></script>
+  <script>svg4everybody();</script>
+</head>
+<body>
+
+  <section class="offer">
+    <div class="offer__title">
+      <h2>Акции и специальные предложения</h2>
+    </div>
+    <div class="offer__wrap">
+      <div class="offer__item">
+        <div class="notebook-banner">
+          <div class="notebook-banner__wrap">
+            <div class="notebook-banner__img">
+              <a class="notebook-banner__img-link" href="#">
+                <img src="img/nb-banner-img.jpg" alt="тетрадь &#171;Кубометрия 3D&#187;">
+              </a>
+              <img src="img/nb-banner-img-bonus.png" alt="подарок при заказе тетради &#171;Кубометрия 3D&#187;" class="notebook-banner__img-bonus">
+            </div>
+            <div class="notebook-banner__inner">
+              <div class="notebook-banner__title">
+                <h3>Предзаказ тетради  «Кубометрия 3D»</h3>
+              </div>
+              <div class="notebook-banner__descr">
+                <p>Акция заканчивается 14 апреля. Через:</p>
+              </div>
+              <div class="notebook-banner__timer timer">
+                <div class="timer__hours">
+                  <div class="timer__hours-count">1 2</div>
+                  <div class="timer__hours-descr">часов</div>
+                </div>
+                <div class="timer__minutes">
+                  <div class="timer__minutes-count">1 2</div>
+                  <div class="timer__minutes-descr">минут</div>
+                </div>
+                <div class="timer__seconds">
+                  <div class="timer__seconds-count">1 2</div>
+                  <div class="timer__seconds-descr">секунд</div>
+                </div>
+              </div>
+              <div class="notebook-banner__info">
+                <div class="notebook-banner__info-price">
+                  <div class="notebook-banner__info-price-new">
+                    <span>9 999 ₽</span>
+                  </div>
+                  <div class="notebook-banner__info-price-old">
+                    <span>9 999 ₽</span>
+                    <!-- НАРИСОВАЛ SVG, КАК АЛЬТЕРНАТИВА ПСЕВДОЭЛЕМЕНТУ.
+                    ВЕРОЯТНО, ТУТ УМЕСТНЕЕ БЫЛ БЫ ПСЕВДОЭЛЕМЕНТ) -->
+                    <svg>
+                      <line x1="1" y1="1" x2="99%" y2="96%" stroke="#ff0072" stroke-width="1">
+                    </svg>
+                  </div>
+                </div>
+                <a href="#" class="notebook-banner__info-link btn">подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="offer__item">
+        <div class="game-banner">
+          <a href="#" class="game-banner__link">
+            <img src="../img/game-banner-bg.jpg" alt="Выиграй призы">
+            <span class="game-banner__btn btn">подробнее</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
